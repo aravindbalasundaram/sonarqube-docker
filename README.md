@@ -46,11 +46,13 @@ sonarqube-docker/
 
 These volumes persist your data and should be created once before deployment:
 
+```
 docker volume create sonarqube-data
 docker volume create sonarqube-extensions
 docker volume create sonarqube-logs
 docker volume create sonarqube-db
 docker volume create sonarqube-db-data
+```
 
 ▶️ Deployment
 
