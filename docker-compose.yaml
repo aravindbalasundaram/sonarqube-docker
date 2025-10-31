@@ -29,7 +29,7 @@ services:
     environment:
       SONAR_JDBC_URL: jdbc:postgresql://db:5432/sonarqube
       SONAR_JDBC_USERNAME: sonar
-      SONAR_JDBC_PASSWORD: "1MQh41gK#>"
+      SONAR_JDBC_PASSWORD: "your secure password"
     volumes:
       - sonarqube-data:/opt/sonarqube/data
       - sonarqube-extensions:/opt/sonarqube/extensions

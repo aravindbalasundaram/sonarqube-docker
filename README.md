@@ -100,7 +100,7 @@ or
 | Service      | Username | Password     |
 | ------------ | -------- | ------------ |
 | SonarQube UI | `admin`  | `admin`      |
-| PostgreSQL   | `sonar`  | `1MQh41gK#>` |
+| PostgreSQL   | `sonar`  | `your_secure_password` |
 
 
 ⚠️ On first login, you’ll be prompted to change the default SonarQube admin password.
@@ -110,11 +110,11 @@ or
 | Variable              | Description            | Default                             |
 | --------------------- | ---------------------- | ----------------------------------- |
 | `POSTGRES_USER`       | DB username            | sonar                               |
-| `POSTGRES_PASSWORD`   | DB password            | 1MQh41gK#>                          |
+| `POSTGRES_PASSWORD`   | DB password            | your_secure_password                |
 | `POSTGRES_DB`         | DB name                | sonarqube                           |
 | `SONAR_JDBC_URL`      | JDBC connection string | jdbc:postgresql://db:5432/sonarqube |
 | `SONAR_JDBC_USERNAME` | SonarQube DB user      | sonar                               |
-| `SONAR_JDBC_PASSWORD` | SonarQube DB password  | 1MQh41gK#>                          |
+| `SONAR_JDBC_PASSWORD` | SonarQube DB password  | your_secure_password                |
 
 Maintenance & Troubleshooting
 - To stop the stack:
