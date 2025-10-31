@@ -21,6 +21,7 @@ Optimized for production — minimal manual setup
 Exposes SonarQube on port 55000
 
 🧩 Architecture Overview
+
 +--------------------+       +--------------------+
 |    SonarQube       | <---> |   PostgreSQL 17    |
 |  Port: 55000       |       |   Port: 5432       |
@@ -33,9 +34,7 @@ Exposes SonarQube on port 55000
    +-----------------------------+
    | Docker Volumes (persistent) |
    +-----------------------------+
-            |
-            |  - sonarqube_data
-            |  - postgres_data
+
 
 ⚙️ Prerequisites
 
