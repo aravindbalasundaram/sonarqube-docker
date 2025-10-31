@@ -33,10 +33,12 @@ Exposes SonarQube on port 55000
 | Disk Space     | 10 GB+             | For database and analysis data |
 
 📦 Folder Structure
+```
 sonarqube-docker/
 ├── docker-compose.yaml      # Docker stack definition
 ├── README.md                # Documentation
 └── (Volumes created externally)
+```
 
 🔧 Setup Instructions
 
