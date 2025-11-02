@@ -93,7 +93,7 @@ Open your browser:
 👉 http://localhost:55000
 
 or
-👉 http://<your-server-ip>:55000
+👉 http://your-server-ip:55000
 
 🔐 Default Credentials
 
